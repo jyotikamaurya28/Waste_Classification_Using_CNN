@@ -1,7 +1,7 @@
 # ♻️ Waste Classification using CNN
 
 A deep learning project that classifies waste images as **Organic** or **Recyclable** using transfer learning (MobileNetV2), with an interactive **Gradio** web app for real-time predictions and disposal tips.
-
+Live Link- https://waste-classification-cnn-478z.onrender.com/
 ## 📌 Features
 - Binary image classification: Organic (O) vs Recyclable (R)
 - Transfer learning with MobileNetV2 (ImageNet weights)
