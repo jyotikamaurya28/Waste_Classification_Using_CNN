@@ -259,4 +259,8 @@ with gr.Blocks(theme=theme, css=custom_css, title="BinGENIUS Smart Classifier") 
     clear_btn.click(clear_all, state, [input_img, result])
 
 if __name__ == "__main__":
-    app.launch()  
+    port = int(os.environ.get("PORT", 7860))
+    app.launch(
+        server_name="0.0.0.0",
+        server_port=port
+    )
